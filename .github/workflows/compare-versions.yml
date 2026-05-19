@@ -13,11 +13,9 @@ jobs:
       - uses: yaroslavzghoba/compare-versions@1.0.2
         with:
           # The URL of the repository to clone.
-          repo-clone-url: 'https://${{ secrets.PAT_FOR_CLONING }}@github.com/yaroslavzghoba/compare-versions.git'
+          repo-clone-url: 'https://${{ secrets.PAT_FOR_CLONING }}@github.com/yaroslavzghoba/material-color-utilities-kotlin.git'
 
           # Bash commands that should extract the version from the code.
-          # For example: |
-          #   cat ./version.txt
           versions-extractor: |
             chmod u+x ./gradlew
             ./gradlew wrapper > /dev/null
