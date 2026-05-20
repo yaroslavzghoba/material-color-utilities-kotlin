@@ -1,4 +1,4 @@
 plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
 }
-rootProject.name = "material-color-utils-kotlin"
+rootProject.name = "material-color-utilities-kotlin"
