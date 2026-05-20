@@ -20,3 +20,10 @@ kotlin {
 tasks.test {
     useJUnitPlatform()
 }
+
+tasks.register("printVersion") {
+    description = "Print the current version of the project."
+    doLast {
+        println(project.version)
+    }
+}
