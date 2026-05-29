@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "space.zghoba"
-version = "1.1.0"
+version = "1.1.1"
 
 repositories {
     mavenCentral()
@@ -15,7 +15,7 @@ dependencies {
 }
 
 kotlin {
-    jvmToolchain(22)
+    jvmToolchain(17)
 }
 
 tasks.test {
