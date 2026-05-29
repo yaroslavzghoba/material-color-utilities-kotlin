@@ -1,0 +1,11 @@
+[versions]
+project = "1.2.0"
+
+kotlin = "2.3.20"
+vanniktechMavenPublish = "0.36.0"
+
+[libraries]
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+vanniktech-maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "vanniktechMavenPublish" }

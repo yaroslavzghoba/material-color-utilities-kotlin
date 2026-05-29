@@ -1,10 +1,10 @@
 plugins {
-    kotlin("jvm") version "2.3.20"
-    id("com.vanniktech.maven.publish") version "0.36.0"
+    alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.vanniktech.maven.publish)
 }
 
 group = "space.zghoba"
-version = "1.1.1"
+version = libs.versions.project.get()
 
 repositories {
     mavenCentral()
