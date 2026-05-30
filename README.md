@@ -15,10 +15,6 @@
 **Material Color Utilities for Kotlin** is a *cross-platform* wrapper written entirely in Kotlin around [Google's Material Color Utilities (MCU)](https://github.com/material-foundation/material-color-utilities), 
 making it easy to generate beautiful, accessible, and user-driven color schemes (including Material 3) using advanced color algorithms.
 
-<p align="center">
-    <img width="665" height="375" alt="100% Kotlin" src="https://github.com/user-attachments/assets/9b386ef8-1781-45b7-8376-185e9639a0c0"/>
-</p>
-
 ---
 
 ## 🚀 Getting Started
