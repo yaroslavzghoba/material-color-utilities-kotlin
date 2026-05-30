@@ -43,6 +43,14 @@ kotlin {
     }
 }
 
+// Print a current version of the project.
+tasks.register("printVersion") {
+    description = "Print the current version of the project."
+    doLast {
+        println(project.version)
+    }
+}
+
 mavenPublishing {
     publishToMavenCentral()
 
