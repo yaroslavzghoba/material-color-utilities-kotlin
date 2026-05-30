@@ -1,5 +1,5 @@
 [versions]
-project = "2.0.0"
+project = "2.1.0"
 android-minSdk = "24"
 android-compileSdk = "36"
 
