@@ -59,8 +59,8 @@ mavenPublishing {
     coordinates(group.toString(), name, version.toString())
 
     pom {
-        name = "Material Color Utilities in Kotlin"
-        description = "A lightweight Kotlin wrapper for Material Color Utilities (MCU), making dynamic theming."
+        name = "Material Color Utilities for Kotlin"
+        description = "A cross-platform Kotlin wrapper for Material Color Utilities (MCU), making dynamic theming."
         inceptionYear = "2026"
         url = "https://github.com/yaroslavzghoba/material-color-utilities-kotlin/"
         licenses {
