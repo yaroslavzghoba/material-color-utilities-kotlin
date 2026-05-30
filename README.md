@@ -31,7 +31,6 @@ dependencies {
 
 ```kt
 import hct.Hct
-import utils.StringUtils
 
 fun main() {
     // Same perceived brightness.
